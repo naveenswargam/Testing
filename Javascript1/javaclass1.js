@@ -91,13 +91,23 @@
 // // console.log(text4)
 // // console.log(text5)
 
-// // const text1="apple,mango,banana,straberry,pineapple,juice"
-// // const text1="This is the front page of the Simple English Wikipedia."
-// // const text3=text1.substring(5,10)  
-// // const text4=text1.substring(10,20)
+// const text1="apple,mango,banana,straberry,pineapple,juice"
+// const text1="This is the front page of the Simple English Wikipedia."
+// const text3=text1.substring(5,10)  
+// const text4=text1.substring(10,20)
 
 // // console.log(text3,(text1+text1).length)
 // // console.log(text4,(text3+text4).length)
+
+// sub str string
+
+// var text1="apple,mango,banana,straberry,pineapple,juice"
+// var text2="This is the front page of the Simple English Wikipedia."
+// var text3=text1.substr(5,13)  
+// var text4=text2.substr(10,20)
+// console.log(text3,text4)
+
+
 
 
 // // (num is a declearation)  (33993 is a assign) (declear and assign both are possible)
@@ -133,6 +143,63 @@
 // const num="ABCD" 
 //  num1="abcd"
 // console.log(num+num1)
+
+
+//Replace method
+
+// let x="hello good morning"
+// let y=x.replace("morning","afternoon")
+// let y=x.replaceAll("hello good morning","hii good afternoon")
+// console.log(y)
+
+// let x="hello good morning hello good morning hello good morning hello good morning hello good morning"
+// let z1=x.replace(/morning/i,"afternoon") 
+// let z2=x.replace(/morning/g,"afternoon")
+// let y=x.replaceAll("hello good morning","hii good afternoon")
+// console.log(y)
+// console.log(z1)
+// console.log(z2)
+
+
+//Touppercase
+
+// var x="made in the image of God"
+// var y=x.toUpperCase()
+// console.log(y)
+// Tolowercase
+// var a=("MADE IN THE IMAGE OF GOD")
+// var b=a.toLowerCase()
+// console.log(b)
+
+
+// concat
+
+// let x="They want to spoil the divine likeness of man made in the image of God."
+// let y="she strives to project an image of youth"
+// let z=x.concat(" ",y)
+// console.log(z)
+
+//  trim is a removing the spaces
+//  trimStart staring remove the spaces
+//  trimEnd  removing the ending spaces
+
+// let x="        my laptop is working fine                      "
+// let y=x.trim()
+// console.log(y)
+
+// let x="        my laptop is working fine                      "
+// let y=x.trimStart()
+// let y=x.trimEnd()
+// console.log(y)
+
+
+
+
+
+
+
+
+
 
 
 
