@@ -1,0 +1,51 @@
+/* reset some default style */
+/* body, html {
+    margin: 0;
+    padding:0;
+} */
+
+
+/* create container using flex box background */
+
+.containder{
+    background-color: black;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.box{
+    height: 100px;
+    width:100px;
+    color: #f10404ec;
+    display: flex;
+    /* align is letter left-right and top-bottom  */
+    align-items: center;
+    /* justify is letter should be center point */
+    justify-content: center;
+    
+
+}
+.laptop{
+    background-color: aqua;  
+}
+
+.blue{
+    background-color: brown;
+
+}
+.skyblue{
+    background-color: cadetblue;
+
+}
+
+.green{
+    background-color: chartreuse;
+    
+}
