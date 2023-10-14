@@ -167,8 +167,55 @@
 // let text2="HELLO WORLD"
 // let text3=text1.toUpperCase();
 // let text4=text2.toLowerCase();
-// console.log(text3)
+// console.log((text3),text4)
 // console.log(text4)
+
+// concat (concat means adding)
+
+// let text1="hello"
+// let text2="world"
+// let text3=text2.concat(" "+"i am naveen")
+// console.log((text1),text3)
+
+// let text4=text1+" "+"india"+" "+text2
+// console.log(text4)
+
+
+// trim  (remove the spaces)
+// let email="            sdsdjfjnlnjjjj@gmail.com"
+// newEmail1=email.trimStart()
+// newEmail2=email.trimEnd()
+// console.log(email)
+// console.log(newEmail1)
+// console.log(newEmail2)
+
+// padding (it is making a zero's or cross(x))
+
+// let number = 1225;
+// let text=number.toString()
+// let padded = text.padStart(5,"0");
+// console.log(padded)
+
+// let AccountNo="8882282889393"
+// Starts=AccountNo.padStart(15,"x")
+// console.log(Starts)
+
+// let AccountNo="93"
+// Starts=AccountNo.padStart(15,"x")
+// console.log(Starts)
+
+
+// output=laptopxxxxxxx@gmail.com  this is task
+
+
+// let numb = 5;
+// let text1 = numb.toString();
+// let padded = text1.padStart(4,"0");
+// console.log(padded)
+
+
+
+
 
 
 
