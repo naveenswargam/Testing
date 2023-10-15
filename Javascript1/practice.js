@@ -321,39 +321,234 @@
 //     console.log("false")
 // }
 
-let hour=25
-hour=26
-hour=49
+// let hour=25
+// hour=26
+// hour=49
 
-if (hour<12){
-    console.log("good morning")
-} else if(hour<24) {
-    console.log("good afternoon")
-} else if(hour<48){
-    console.log("good evening")
+// if (hour<12){
+//     console.log("good morning")
+// } else if(hour<24) {
+//     console.log("good afternoon")
+// } else if(hour<48){
+//     console.log("good evening")
 
-}else{
-    console.log("good night")
-}
+// }else{
+//     console.log("good night")
+// }
  
 
+// conditional statements  if , else if, else
+
+// if (hour<12){
+//     console.log("good morning")
+// } else if(hour<24) {
+//     console.log("good afternoon")
+// } else if(hour<48){
+//     console.log("good evening")
+
+// }else{
+//     console.log("good night")
+// }
 
 
+// curly brackets in between is called the scope
+// curly bracket is available on for, for loop,if , else if, else,function..,
+
+// this is scope-----var is no scope//let have scope//cost also have 
+
+// let x="Naveen"
+// if (true){
+//     let x="shyam"
+//     console.log("block",x)
+// }
+// console.log("global",x)
+
+// var name="naveen"
+
+// if (true){
+//     var name="ramesh"
+//     console.log(name)
+// }
+// console.log(name)
+
+// var name="naveen"
+// x=10
+// if (x>15){
+//     var name="ramesh"
+//     console.log(name)
+// }
+// console.log(name)
+
+// const nam="naveen"
+// if(true){
+//     const nam="suresh"
+//     console.log(nam)
+// }
+// console.log(nam)
+
+//          scope(scope means curly brackets)
+// var     no
+// let     yes
+// const   yes
+
+// function
+
+// const sum1=(name1)=>{
+//     console.log(name1)
+// }
+// const name1="raju"
+// sum1(name1)
+
+// const sum1=(a,b)=>{
+//     console.log("addinf",a+b)
+// }
+// const sum2=(a,b)=>{
+//     console.log("sunb",a-b)
+// }
+// const sum3=(a,b)=>{
+//     console.log("multiply",a*b)
+// }
+// const sum4=(a,b)=>{
+//     console.log("division",a/b)
+// }
+// sum1(5,2)
+// sum2(5,3)
+// sum3(5,4)
+// sum4(5,5)
 
 
+// const output=(num1,num2,op)=>{
+//    if (op=="+"){
+//     console.log(num1+num2)
+//    }else if (op=="-"){
+//     console.log(num1-num2)
+//    }else if (op=="*"){
+//     console.log(num1*num2)
+//    }else if (op=="/"){
+//     console.log(num1/num2)
+//    }else{
+//     console.log("no result")
+//    }
+// }
+
+// output(5,2,"-")
+// output(5,4,"-")
+// output(5,2,"*")
+// output(10,2,"/")
 
 
+// let cal=(num1,num2,opp)=>{
+//     if (opp=="+"){
+//     console.log(num1+num2)
+//     }else if (opp=="-"){
+//     console.log(num1-num2)
+//     }else if (opp=="*"){
+//     console.log(num1*num2)
+//     }else if (opp=="/"){
+//     console.log(num1/num2)
+//     }else{
+//     console.log("No Results")
+//    }
+// }
 
 
+// cal(5,2,"+")
+// cal(5,2,"-")
+// cal(5,2,"*")
+// cal(5,2,"/")
 
 
+// concatenating array(two string value added only one string)
+
+// const fruites=['Apple','orange']
+// const juicenames=['pineapplejuic','mangojuice','orangejuice']
+// const totalname=fruites.concat(juicenames)
+// console.log(totalname)
+
+// inside scope and outside scope
+// let name="shyam"
+// x=10
+// if(x>11){
+//     let name="naveen"
+//     console.log("name1",name)
+// }
+// console.log("name2",name)
+
+// var name="shyam"
+// x=10
+// if(x>9){
+//     var name="naveen"
+//     console.log("name1",name)
+// }
+// console.log("name2",name)
+
+// const name="shyam"
+// x=10
+// if(x>9){
+//     const name="naveen"
+//     console.log("name1",name)
+// }
+// console.log("name2",name)
 
 
+// console.log("rakesh")
+// function first(){
+//     console.log("suman")
+// function second(){
+//     console.log("shyam")
+// function third(){
+//         console.log("naveen")
+//     }
+// console.log("rekha")
+// third();
+// console.log("sneha")
+// }
+// console.log("varsha")
+// second();
+// console.log("dikksha")
+// }    
+// console.log("saraswathi")
+// first();
+// console.log("sourabh")
+// console.log("naveen")
 
+// console.log("apple")
+// function first(){
+//     console.log("mango")
+// function second(){
+//     console.log("orange")
+// function third(){
+//     console.log("pineapple")
+//      }
+// console.log("bluecolor")
+// third();
+// console.log("whitecolor")
+// }
+// console.log("orangecolor")
+// second();
+// console.log("greencolor")
+// }
+// console.log("violetcolor")
+// first();
+// console.log("blackcolor")
+ 
+// september 29 class
+// let n=100
+// if(n>95){
+//     console.log("naveen")
+// }if (n>111){
+//     console.log("shyam")
+// }else{
+//     console.log("laptop")
+// }
 
+// terinary operator
 
+n=100
 
-
+n>99?n>95?console.log("yes n is greater then 100"):console.log("yes n is less then 100"):console.log("no")
+n>99?n>111?console.log("yes n is greater then 100"):console.log("yes n is less then 100"):console.log("no")
+n>101?n>95?console.log("yes n is greater then 100"):console.log("yes n is less then 100"):console.log("no")
 
 
 
