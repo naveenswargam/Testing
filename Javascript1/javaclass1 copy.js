@@ -4,7 +4,7 @@
 
 // // Number
 // // let num1=34430
-// // let num2=3443
+// // let num2=3443f
 // // total=num1+num2
 // // console.log(num1.length)
 // // console.log(total.length)

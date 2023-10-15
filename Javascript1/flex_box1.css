@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.red{
+    background-color:rgba(230, 56, 25, 0.877);
+}
+
+.blue{
+    background-color: rgb(16, 233, 34);
+}
+
+.green{
+    background-color: rgb(74, 155, 209);
+}
+
+.skyblue{
+    background-color: rgb(224, 204, 19);
+}
+
+.naveen{
+    width: 400px;
+    margin: 20px auto;
+    
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+    
+
+}

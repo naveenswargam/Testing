@@ -205,13 +205,138 @@
 // console.log(Starts)
 
 
-// output=laptopxxxxxxx@gmail.com  this is task
+// output=laptopxxxxxxxx@gmail.com  this is task
+
+// let name1="laptop";
+// let name2="@gmail.com";
+// name3=name2.padStart(18,"*")
+// let num4=name1.concat(name3)
+// console.log(num4)
+// console.log(name1+name3)
+
+// let name1="laptop";
+// let name2="@gmail.com";
+// name3=name1.concat(name2.padStart(18,"*"))
+// console.log(name3)
+
+
 
 
 // let numb = 5;
 // let text1 = numb.toString();
 // let padded = text1.padStart(4,"0");
 // console.log(padded)
+
+// index of  (index is a position particular name in only one string) start from zero
+
+// let name=("naveen" ,"shyam" ,"raju")--no output in particular string
+// let name=("naveen,shyam,raju")---this is shows the output due all names are in one string
+// let name=("naveen,shyam,raju")
+// console.log(name[6])
+// console.log(name[7])
+
+// array start from zero particular string
+
+// let name=["naveen" ,"shyam" ,"raju"]
+// let name=("naveen" ,"shyam" ,"raju")
+// console.log(name[0])
+// console.log(name[1])
+// console.log(name[2])
+// console.log(typeof(name))
+
+// push adding the last element 
+
+// let allnames=["naveen","shyam","raju"]
+// allnames.push("sandhyarani")
+// console.log(allnames)
+
+// let allnames1=[]
+// let allnames2=[]
+// console.log(allnames1)
+// console.log(allnames2)
+
+// let allnames1=["Apple ,mango, banana, Pineapple"]
+// allnames1.push("juice,fruite,orange")
+// console.log(allnames1)
+
+// let allnames1=["Apple ,mango, banana, Pineapple"]
+// allnames1.pop()
+// allnames1.pop()
+// console.log(allnames1)
+
+// pop remove the last element--wrote the names in string
+// const allNames=["Apple" ,"mango", "banana", "Pineapple"];
+// allNames.pop();
+// console.log(allNames)
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.pop();
+// console.log(fruits)
+
+// unshift adding the first element
+
+// var allNames=("mango,apple,banana")
+// console.log(allNames[7])
+
+// let name=("naveen,shyam,raju")
+// console.log(name[6])
+// console.log(name[7])
+
+
+
+// allNames.unshift("laptop")
+// console.log(allNames)
+
+// shift remove the last element
+
+// var allNames=["mango","apple","banana"]
+// allNames.shift()
+// allNames.shift()
+// console.log(allNames)
+
+
+// if and else conditions
+// 8>12 or 8<12
+
+// let hours=8
+// if (hours<12){
+//     console.log("half day")
+// }else{
+//     console.log("good day")
+// }
+
+// 24>12 or 24<12
+// 24>12
+// var hours1=24
+// 12>8 
+// var hours=12
+
+// if (hours1>12)
+//       {
+//     console.log("one day")
+
+// }else if (hours>8){
+//     console.log('half day')
+// }else{
+//     console.log("false")
+// }
+
+let hour=25
+hour=26
+hour=49
+
+if (hour<12){
+    console.log("good morning")
+} else if(hour<24) {
+    console.log("good afternoon")
+} else if(hour<48){
+    console.log("good evening")
+
+}else{
+    console.log("good night")
+}
+ 
+
 
 
 
